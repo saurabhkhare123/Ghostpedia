@@ -4,26 +4,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="/path/to/flickity.pkgd.min.js"></script>
+    <script src="flickity.pkgd.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+
+    <title>Ghostpedia</title>
 </head>
 
 <body>
+    <!--Preload Start-->
     <div class="preload" style="background-image: url(img/bg-2.jpg);">
         <img src="img/245787032022212.png" alt="flyingGhost" class="ghost">
         <h3>Even the dead tell stories...</h3>
         <img src="img/ghost1.png" alt="ghost1" class="ghost1">
         <img src="img/klipartz.com.png" alt="ghost1" class="ghost2">
-        
-        
 
+
+        <!--Navbar starts-->
     </div>
-    <section>
-        <h1>Arrived</h1>
-        <p1>Welcme</p1>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="img/logo.jpg" width="200" height="200" alt="logo"></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">Countries</a></li>
+            <li><a href="#services">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <nav class="rightnav v-class-resp">
+            <input type="text" name="search" id="search">
+            <buttton class="btn btn-sm"> Search </buttton>
+        </nav>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <!--Banner starts-->
+    <section class="background firstSection" id="#bol">
+        <div class="box-main">
+            <div class="fisthalf">
+
+                <p class="text-big">Ghostpedia</p>
+                <p class="text-small">Even when you know a thought isn't rational – when you know that you're worried
+                    for no apparent reason – a scary thought can make it very difficult to enjoy your day. Scary
+                    thoughts are thoughts that are by their very nature distressing, and when they occur it can be very
+                    difficult to push the thought away.
+
+                    Anxiety commonly causes all types of weird and scary thoughts, because anxiety changes the way that
+                    your brain interprets and stores information. In this article, we'll look at how anxiety causes
+                    scary thoughts and what you can do to stop it.</p>
+                <div class="buttons">
+
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch video</button>
+                </div>
+            </div>
+            <div class="secondhalf">
+                <img src="img/First.jpeg" width="250" height="250" alt="ghost">
+            </div>
+        </div>
     </section>
-    
-<script src="app.js"></script>
+
+    <!--Banner ends-->
+    <h1 class="about">
+        <center>About Us</center>
+    </h1>
+    <section class="section">
+
+        <div class="para">
+            <p class="sectiontag text-big">The end of humanity is here</p>
+            <p class="sectionSubTag text-small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab possimus
+                veritatis quos aspernatur. Et illo deleniti, in modi itaque distinctio consequatur, commodi vero non vel
+                eum impedit corrupti voluptatem deserunt dolor sed. Esse ipsam at explicabo et, neque eaque fugiat.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/200x200/?ghosts " width="200" height="200" class="imgFluid">
+        </div>
+
+    </section>
+
+    <!--About Us-->
+    <section class="section left" id="about">
+        <div class="para">
+            <p class="sectiontag text-big">The end of humanity is here</p>
+            <p class="sectionSubTag text-small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab possimus
+                veritatis quos aspernatur. Et illo deleniti, in modi itaque distinctio consequatur, commodi vero non vel
+                eum impedit corrupti voluptatem deserunt dolor sed. Esse ipsam at explicabo et, neque eaque fugiat.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/200x200/?witches" width="200" height="200" class="imgFluid">
+        </div>
+
+    </section>
+    <section class="section" id="services">
+        <div class="para">
+            <p class="sectiontag text-big">The end of humanity is here</p>
+            <p class="sectionSubTag text-small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab possimus
+                veritatis quos aspernatur. Et illo deleniti, in modi itaque distinctio consequatur, commodi vero non vel
+                eum impedit corrupti voluptatem deserunt dolor sed. Esse ipsam at explicabo et, neque eaque fugiat.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/200x200/?demons" width="200" height="200" class="imgFluid">
+        </div>
+
+    </section>
+    <!--carousel started-->
+
+    <div class="carousel">
+        <h1>
+            <center>Countries</center>
+        </h1>
+        <div class="gallery js-flickity" data-flickity='{ "wrapAround": true }'>
+            <div class="gallery-cell" style="background-image: url('img/North-America.jpg');"><a href="">North
+                    America</a></div>
+            <div class="gallery-cell" style="background-image: url('img/South-America.jpeg');"><a href="">South
+                    America</a></div>
+            <div class="gallery-cell" style="background-image: url('img/Africa.jpg');"><a href=""></a>Africa</div>
+            <div class="gallery-cell" style="background-image: url('img/Europe.jpg');"><a href="">Europe</a></div>
+            <div class="gallery-cell" style="background-image: url('img/Asia.jpg');"><a href="">Asia</a></div>
+            <div class="gallery-cell" style="background-image: url('img/Australia.jpg');"><a href="">Australia</a></div>
+        </div>
+    </div>
+
+    <!--Contact -->
+    <section class="contact" id="contact">
+        <h2 class="waala">Contact hell</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your Phone">
+            <input class="form-input" type="text" name="death-wish" id="death-wish" placeholder="Enter your death-wish">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10" class="txt"
+                placeholder="Express your inner demons"></textarea>
+            <button class="btn btn-sm btn-dark">Submit</button>
+        </div>
+    </section>
+    <footer class="background">
+        <p class="waali">
+            There is no escape,death will always find its way to you!
+        </p>
+        <script src="/path/to/flickity.pkgd.min.js"></script>
+        <script src="app.js"></script>
 </body>
 
-</html> 
+</html>
