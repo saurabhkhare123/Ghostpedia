@@ -19,9 +19,10 @@
     }
     .container
     {
-        margin-left: 10%;
+       
         align-items: center;
         justify-content: center;
+        justify-items: center;
         margin-top: 3%;
         
     }
@@ -42,8 +43,22 @@
         height: 175px;
     }
  
-  
+    
+    .card:hover {
+  transform: scale(1.10);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card {
 
+
+  transition: 0.5s ease;
+  
+}
+@media (max-width: 480px){
+    .card{
+        margin-left:20%;
+    }
+}
     
 </style>
 
