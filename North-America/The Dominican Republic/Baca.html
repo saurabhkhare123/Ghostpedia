@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,
+    .img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+       
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>EL BACA</h1>
+    <img src="img/baca1.jpeg" alt="" class="img1">
+    <p>The Bacà is a diabolical creature that people conjure up to get wealth and property. It is also called upon to
+        protect land and property from being stolen. It is thought that when a person all of a sudden gets prosperous
+        they have conjured up a bacà.</p>
+    
+    <p>The baca can take the form of a black cat, a dog, bull or other animals. Once conjured this shape-shifting
+        creature becomes very demanding. It wants great sacrifices on the part of the person who uses him.
+        <img src="img/baca2.jpeg" alt="" class="img2">
+        To get what you ask for from this creature it is like making a pact with the devil himself. In return for your
+        gains he might be nice and just take some of your lands, homes, businesses or livestock. If you are one of the
+        unlucky ones you might have to pay the ultimate price by having you, your friends or your family suffer from
+        diseases, illnesses, bad things happening or the ultimate price, dying mysterious or by committing suicide.
+
+
+
+        So before you decide you would give anything to become prosperous think long and hard before you call upon a
+        baca. Do you really want to sell your soul to the devil for eternity just to have a short time of prosperity?
+    </p>
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

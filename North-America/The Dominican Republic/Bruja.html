@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,
+    .img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>The Dominican Bruja</h1>
+    <img src="img/bruja1.jpeg" alt="" class="img1">
+    <p>The legend of the Bruja / Witch in the Dominican Republic originates in Europe with a little African flavor thrown
+        in for good measure. This legend conserves the echoes of the medieval beliefs as an older person dies they
+        become a bird. Our witches are old deformed women, perverse and night dwellers. They do fly on brooms but they
+        prefer changing into large birds. In this form they can fly closer to houses and yell with loud squawking
+        sounds. It is said that the witch removes its skin before flying and keeps it in soaking in a tintature. When
+        they take to flight they are said to say “Without God nor Santa Maria!”. People say they have heard the Bruja
+        during flight laughing and singing in a hideous voice.
+
+
+<img src="img/bruja2.jpeg" alt="" class="img2">
+
+
+        When the witches rest they do so under the branches of the platano tree. The witches will suck the blood of the
+        children either from the navel or the big toe. It is said that a Bruja will not attack the children of its own
+        friends or if they are twins.
+
+        The only way one can catch a Bruja is to knock her down. The “tumbadores” are said to be the only ones that are
+        able to fall a witch because only they know the special orations and rituals. After a witch is caught one must
+        wait for dawn. Only when the sun rises and the witches enchantment is broken can their true identity be
+        discovered</p>
+
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

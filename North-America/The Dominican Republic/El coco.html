@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,.img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2 ,.img3{
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+    </style>
+<body id="wiki">
+    <h1>El Coco</h1>
+    <img src="img/cuco1.jpeg" alt="" class="img1">
+    <p>El Coco (also El Cuco and Cucuy, sometimes called El Bolo) is a monster common to many Spanish-speaking countries.
+
+        The rhyme originated in the 17th century and has evolved over the years, but still retains its original meaning. Coconuts (Spanish: coco) received that name because the hairy, brown "face" created by the coconut shell's three indentations reminded the Portuguese sailers of "Coco".
+        
+        However, the term El Coco is also used in Spanish-speaking Latin American countries, such as Bolivia, Colombia, Guatemala, Peru, Mexico, El Salvador, Honduras, the Dominican Republic, and Venezuela, although there it is more usually called El Cuco, as in Puerto Rico, Chile, Uruguay and Argentina.
+      <img src="img/cuco2.jpeg" alt="" class="img2">  
+    <strong>Myths & Legends</strong>    
+        In Spain, parents will sing lullabies or tell rhymes to children, warning them that if they do not sleep, El Coco will come to get them. Latin America also has El Coco, although its folklore is usually quite different, commonly mixed with native beliefs, and, because of cultural contacts, sometimes more related to the boogeyman of the United States.
+        
+        Among Mexican-Americans, El Cucuy is portrayed as an evil monster that hides under children's beds at night and kidnaps or eats the child that does not obey his/her parents or go to sleep when it is time to do so. However, the Spanish American bogeyman does not resemble the shapeless or hairy monster of Spain: social sciences professor Manuel Medrano says popular legend describes El cucuy as a small humanoid with glowing red eyes that hides in closets or under the bed. "Some lore has him as a kid who was the victim of violence... and now he's alive, but he's not," Medrano said, citing Xavier Garza's 2004 book Creepy Creatures and other Cucuys."
+        
+        
+        In Brazil folklore, a similar character called Cuca is depicted as a female humanoid alligator, or a old lady with a sack. There's a famous lullaby sung by most parents to their children that says that The Cuca will come to get them and make a soup or soap made of them if they do not sleep, just as in Spain. The Cuca is also a character of Monteiro Lobato's Sítio do Picapau Amarelo ("Yellow Woodpecker's Site"), a acclaimed and creative series of short novels written for children which contain a large number of famous characters from Brazilian folklore.</p>
+    
+    <p></p>
+    
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>
