@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,
+    .img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>Chasse-Galerie</h1>
+    <img src="img/chas1.jpeg" alt="" class="img1">
+    <p>Chasse-galerie also known as "The Bewitched Canoe" or "The Flying Canoe" is a popular French-Canadian tale of
+        Coureurs des bois who make a deal with the devil, a variant of the Wild Hunt. Its best-known version was written
+        by Honoré Beaugrand (1848–1906). It was published in The Century Magazine in August 1892.</p>
+    <p>
+        <img src="img/chas2.jpeg" alt="" class="img2">
+        The story can be traced back to a French legend about a rich nobleman named Gallery who loved to hunt. He loved
+        it so much that he refused to attend Sunday mass. As punishment for this sin he was condemned to fly forever
+        through the night skies, chased by galloping horses and howling wolves, in a fashion reminiscent of the Wild
+        Hunt stories.
+
+        When French settlers arrived in Canada, they swapped stories with the natives and the tale of Gallery was
+        combined with a First Nations legend about a flying canoe. In time bark canoes became associated with
+        French-Canadian culture as well; when some of the earliest French-Canadians arrived in New York City, they were
+        reported to have landed on the banks of the Hudson River to "the amazement and admiration of the people, who had
+        never seen bark canoes in their waters before".
+    </p>
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

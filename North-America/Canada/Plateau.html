@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,.img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2 ,.img3{
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+    </style>
+<body id="wiki">
+    <h1>The Forbidden Plateau</h1>
+    <img src="img/for1.jpg" alt="" class="img1">
+    <p>
+        According to the popular, though disproven, legend, when the K'omoks faced raids from other coastal tribes, they took their women and children to the plateau for safekeeping. During a raid by the Cowichan, the women and children vanished without a trace. When a member of the tribe went looking for the women and children within the Forbidden Plateau, he found red lichen covering the snow and nearby rocks and assumed the lichen to be blood from the family members. Since then, the plateau became taboo for it was believed that it was inhabited by evil spirits who had consumed those they had sent.
+
+This legend, however, has no basis in K'omoks history, a fact which has been documented by sources such as Comox Valley environmentalist Ruth Masters and Pat Trask, curator at the Courtenay Museum.Clinton Wood and Ben Hughes appear to be the creators of the false legend, the first record of which can be found in an article by Hughes in the Province newspaper in 1927. In a book published in 1967, Wood takes credit for the legend, stating that he believed a bit of mystery would help publicize the attraction of the plateau.
+    </p>
+    
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

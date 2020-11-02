@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,
+    .img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>The Dungrarvon Whooper</h1>
+
+    <p>
+        Along the Dungarvon River, logging was quite popular in the late 1800s into the 1900s. It is no surprise that
+        during the long winter months, the winter camps soon filled with men and their stories. One of the most
+        prominent stories, trafficked almost as heavily as the wood, was that of the Dungarvon Whooper.
+
+        <img src="img/whoofer.jpeg" alt="" class="img1">
+
+        The story of the Dungarvon Whooper begins with a young cook at a lumber camp named Ryan. Ryan was said to have
+        been working lumber camps for a few years and was quite transient. When he arrived at the latest logging camp he
+        brought a simple sack filled with all of his worldly possessions and bulging money belt. Although he was a bit
+        braggadocious at times, Ryan was generally well-liked, especially for his talent. Even though Ryan was small, he
+        could whoop and holler and yell better than any man at the camp.
+
+        Ryan, as the camp’s cook, awoke far earlier than the rest of the camp to begin preparing breakfast for all the
+        men. Once he was finished cooking breakfast and filling up the lunch pails, he would let out a tremendous whoop
+        to awake the entire camp and rouse them for breakfast.
+
+        One day, the boss of the lumber camp arrived. The boss was a stranger to the camp, but, as he was responsible
+        for their paychecks, the men respected him. Once breakfast was made and the men left for the day, it was pretty
+        much just the boss and Ryan alone at camp. When the men returned for dinner...they found Ryan’s lifeless body
+        without his money belt.
+        <img src="img/Whooper1.jpeg" alt="" class="img2">
+
+        One of the men confronted the boss and claimed that the young cook had suddenly taken ill after the men had left
+        and gotten worse and worse until succumbing to his death. The lumberman, loyal to their cook, asked if this was
+        true where was the money belt that Ryan was never seen without?
+
+        The boss said something non-committal and a horrible storm began to rage. Not wanting their friend to go without
+        a proper burial, they buried him in the forest. As they made their way back to the storm in the middle of the
+        night and through the eye of the storm, they heard dreadful whooping emitting from all around them. It continued
+        throughout the night from every conceivable direction and terrified all those in the camp.
+
+        The men went back with a priest shortly after to give a proper burial...but his body was nowhere to be found in
+        the shallow grave the men had made. Following this failed attempt at a proper burial and Ryan’s missing body,
+        every night after dark a bone-shivering whooping would echo throughout the camp.
+
+        Despite being a profitable camp, the lumbermen abandoned their work as soon as spring came and made for
+        different camps never to return. Although the camp was disbanded, the Dungarvon Whooper did not stop his
+        whooping and his tortured calls would ring throughout the forest for years.
+
+        Throughout the New Brunswick area there are slight variations to this tale. Some of the stories claim that the
+        whooping ended decades later when a priest came and blessed the land. Other stories claim that the whooping can
+        be heard to this day.
+
+        So, is it the just the wind whipping through the forest at night that makes this baleful whooping? Or, is it
+        something more sinister?
+    </p>
+
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,
+    .img3 {
+
+        float: left;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>Rose Latulippe Legend</h1>
+    <img src="img/download.jpeg" alt="" class="img1">
+    <p>The Legend of Rose Latulipe, also known as The Legend of the Devil at the Dance and The Legend of the Beautiful
+        Dancer, is a French Canadian legend (Quebecois and Acadian), from the 18th century. There are more than 200
+        different versions of the legend. The most well-known version was written by Philippe-Joseph Aubert de Gaspé, in
+        1837 in Le chercheur de trésor ou l'influence d'un livre.
+
+        This version recounts the story of Rose Latulipe, a young and frivolous girl who loved to dance. On the night of
+        Mardi Gras, a stranger showed up at the Latulipe house and danced with Rose until the stroke of midnight. The
+        stranger is revealed to be the Devil. According to some versions, the Devil disappeared, taking Rose with him to
+        Hell. According to other versions, the priest of the village intervened, saving her. She would subsequently
+        enter a convent and die a few years later.
+
+        The legend is one of many examples in French Canadian folklore of girls 'dancing with the devil.' The stories
+        may have served as cautionary tales for young girls about the dangers of dancing with strangers who could be
+        criminals, particularly during Lent or on Sundays.</p>
+
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

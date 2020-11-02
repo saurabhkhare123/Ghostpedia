@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,.img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2 ,.img3{
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+    </style>
+<body id="wiki">
+    <h1>John troyer</h1>
+    <img src="img/john1.jpeg" alt="" class="img1">
+    <p>John Troyer (3 February 1753 – 28 February 1842)[1] was a farmer, businessman, medical practitioner, and exorcist in the Norfolk County, Ontario region.
+
+        Troyer and family emigrated from 
+        <img src="img/John Troyer.gif" alt="" class="img2">southeastern Pennsylvania in 1789 and settled in Ontario, Canada, near Long Point on Lake Erie on a farm. The farm is still known as Troyer's Flats. This Amish family appears to have been successful in their economic pursuits with a gristmill and boat construction in addition to the farm. He became well known for his medical abilities although he had no formal training. He was locally famous for his herbal remedies.
+        
+        Local legends abounded concerning witches and other paranormal activities where Dr Troyer was involved. He was known to have had exaggerated fears of witches. Examples of his witch traps (modified bear traps) can be seen in the Eva Brook Donnelly Museum in Norfolk County, Ontario. One story focused on his attempts to find a stash of gold, dumped in the area the previous century by a fur trader named David Ramsay. Another, recorded in the book Tales of Long Point, tells of him following several witches to where they kept their broom sticks, then stealing one of their broom sticks for himself, flying through the air to view a meeting of witches held at a distant location.
+        
+        </p>
+    
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

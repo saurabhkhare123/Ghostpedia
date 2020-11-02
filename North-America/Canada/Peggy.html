@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,.img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2 ,.img3{
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+    </style>
+<body id="wiki">
+    <h1>Peggys Cove</h1>
+    
+    <img src="img/peggy2.jpeg" alt="" class="img2">
+    <p>On a rocky outcrop in Nova Scotia, you can find a lonely lighthouse. The story goes that in 1800, a woman named Peggy washed up on the rocks there after being shipwrecked. Tragically, her children all drowned. Peggy went on to marry one of locals and live on the cove. She would often walk along the rocks at night, calling out to them in her grief. One night, her husband went out with her and danced on the rocks to cheer her up. He lost his footing and slipped, sending him into the rocks which killed him. Soon after, she jumped off the same rocks and ended her life. Visitors swear that on dark stormy nights, you can see the ghost of a woman in a blue dress standing at the edge of the rocks, ready to jump.
+    </p>
+    
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-2000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>
