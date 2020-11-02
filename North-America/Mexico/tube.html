@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,.img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2 ,.img3{
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+    </style>
+<body id="wiki">
+    <h1>Islands of the Dolls</h1>
+    <img src="img/Island-of-the-Dolls-Haunted.jpg" alt="" class="img1">
+
+    <p>
+        More than 50 years ago, Don Julián Santana Barrera left his wife and child and relocated to the solitude of a chinampa (floating garden) in the canals of Xochimilco, Mexico City.
+
+        Barrera was known as a loner, so this floating island an hour from the nearest pier must have been paradise for him. Shortly after taking residence on the island Barrera found the corpse of a little girl who drowned in the canal along with a child’s doll. He hung the doll from a tree nearby as a memorial for the girl, but began to be haunted by whispers, wails and footsteps in the night (despite the fact that he was the only one on the isolated island). He believed these haunting phenomena to be the work of the drowned girl’s spirit; in an effort to appease her, he began hanging dolls all around the chinampa. He would continue hanging these dolls for over 50 years until he died in 2001. He drowned, reportedly in the same spot he found the little girl.
+        
+        Hundreds of dolls still hang in the trees of the chinampa today.
+    </p>
+    
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

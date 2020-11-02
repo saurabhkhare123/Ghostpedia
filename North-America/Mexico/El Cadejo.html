@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Cadejo</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,.img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2 ,.img3{
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+    </style>
+<body id="wiki">
+    <h1>El Cadejo</h1>
+    <img src="img/cadejo1.jpg" alt="" class="img1">
+    <p>
+        The legend of “El Cadejo” is very popular in El Salvador, although it is also known in Central America, Mexico and part of South America. This legend comes from the times of our indigenous ancestors, who usually believed that the dog helped humans in their passage into the afterlife when they died. With the arrival of the Spaniards and Christianity to our lands, the legend was changed to show the difference between good and evil.
+    </p>
+    <p>
+    El Cadejo is a legendary animal from the Mesoamerican region, being well known in rural and even urban areas of Mexico and Central America.
+
+<img src="img/cadejo2.jpg" alt="" class="img2">It is said to be a mythical dog (or two dogs, which generally appears to those who roam late at night and to whom mysterious powers are attributed). The different versions of the legend in Central America describe a white and a black cadejo (generally benign and malignant respectively), or simply a single black cadejo (generally malignant).
+
+The legend of the Cadejo is the vestige of an ancient belief that supposes that every human owns a pet. This mythical animal is twice that of man, in such a way that the illness or death of the former entails the illness or death of the latter. Currently, comparisons of the above can be made with Western religious thought, which expresses that man has a guardian angel that protects him from dangers. The belief supposes the existence of a companion animal for each man. Also this character has its pre-Columbian Mayan resonance in a benefactor spectrum guardian of the ways.
+
+This animal accompanies man in all his solitary trips at night; and in the version of two cadejos, white protects him and defends him against the evil spirits incarnated in the black cadejo, a dark color that symbolizes death, that is, evil in all its manifestations.</p>
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

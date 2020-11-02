@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>Alcatraz Island</h1>
+    <img src="Alca1.jpg" alt="" class="img1">
+    <p>From voices, to footsteps, to the appearance of apparitions, Alcatraz is considered a very haunted location…
+
+
+
+        Alcatraz was first discovered in 1775 by Spanish explorer Juan Miguel de Ayala. He named the island La Isla de
+        los Alcatraces, meaning “island of pelicans.”
+
+    </p>
+    
+
+    <h2>History of Alcatraz</h2>
+    <p>
+    <img src="Alca2.jpg" alt="" class="img2">
+    As a result of the influx of people to San Francisco at the time of the California Gold Rush, construction of a
+    fortress began by U.S. Army engineers in 1853 at what later became known as Alcatraz.
+
+    Due to the higher rate of crime during the gangster era, Alcatraz began a makeover in 1934 to make it better suited
+    for hardened criminals.
+
+    Some of the best-known inmates who spent time at Alcatraz include Al Capone, Robert Stroud, (otherwise known as “The
+    Bird Man of Alcatraz,”) Machine Gun Kelly, and Doc Barker of the Ma Barker gang.
+
+
+
+    When operational costs became too high, Alcatraz closed its doors in 1963.
+    </p>
+
+    <h2>The Ghosts at Alcatraz</h2>
+    <p>
+        There have been numerous incidents of spirit happenings experienced by both guards and visitors to Alcatraz.
+        Male voices and footsteps have been heard. People have seen apparitions, and some guests have experienced the
+        smell of smoke. Both orbs and ghostly images have been captured on film.
+
+        There have been several deaths at Alcatraz. Eight people were killed by inmates during Alcatraz’s time as a
+        prison, along with five inmates who committed suicide. Fifteen people died from natural causes.
+
+        Could any of these people be the ghosts of Alcatraz? Some people believe the spirits of two guards who were
+        murdered in a shooting incident in 1946 still roam the grounds.
+
+        Cell blocks A, B, and C are said to have paranormal activity. The laundry room and the hospital have also had
+        reported spirit activity. C-Block is reputedly haunted by the spirit of former inmate Abie Maldowitz (nicknamed
+        Butcher) who was murdered in the laundry room.
+
+    </p>
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>
