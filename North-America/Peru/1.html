@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,.img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2 ,.img3{
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+    </style>
+<body id="wiki">
+    <h1>The Tunchi</h1>
+    <img src="img/tunchi.jpeg" alt="" class="img1">
+    <p>El Tunchi is an evil spirit that haunts the jungle and terrorizes people with an eerie, whistling sound. Some say he’s an amalgamation of all the souls that have perished in the rainforest, while other legends describe him as the ghost of a man who became lost and died in the jungle.El Tunchi is angered by anyone who disrespects the natural environment. He is also drawn to people who respond to his whistle. Not doing so is easier said than done—the whistle gets increasingly louder and higher pitched, and listeners have an unbearable urge to mimic the tune. Those who answer his call are sure to meet a hideous death.
+
+         </p>
+    
+    
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

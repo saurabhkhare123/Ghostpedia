@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,.img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2 ,.img3{
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+    </style>
+<body id="wiki">
+    <h1>Lu Viudita</h1>
+    <img src="img/vi1.jpeg" alt="" class="img1">
+    <p>After years of living in fear of her abusive husband, who would hit and rape her whenever he drank, a woman decided to fight back. She killed her husband, and afterwards herself, but she was not done. 
+
+        On any given night, always after midnight, she can be seen dressed all in black, her face covered by a mysterious veil. Those who try and walk her home, often drunk and driven by lust or other nefarious purpose, will be encouraged to touch her body, to kiss her hands and to get intimate without lifting the veil until they reach the privacy of a bedroom. 
+        
+        </p>
+    <img src="img/vi2.jpeg" alt="" class="img2">
+<p>There and then la Viudita shows her true appearance. As her would-be abuser lifts the veil, she reveals a horrifying image: a faceless skull with no lips, eyes, nose, or hair, as she lets out a maniacal bone-chilling laughter. Unable to handle the sight and the scene’s sheer terror, men faint and are left traumatized thereafter. If their heart managed to take it, they often wake up covered in thistles, forever haunted by the image of the Widow.</p>
+    
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

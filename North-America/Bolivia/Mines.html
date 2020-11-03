@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,.img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2 ,.img3{
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+    </style>
+<body id="wiki">
+    <h1>The caretaker of mines</h1>
+    <img src="img/mine1.jpeg" alt="" class="img1">
+    <p>"The uncle": this is how the protector of the underground world in Potosí is known. There, where the dominions of God do not reach, the miners have given themselves to the guardianship of the devil, whom they nicknamed"the uncle".
+
+    </p>
+    
+<p>After centuries of mining started by the Spanish colony and innumerable deaths (it is said that they exceeded eight million), there may still be found in the corridors of the mines figurines surrounded by beers, cigars and even animals sacrificed in adoration to the uncle, so that this protects them.
+
+     The risks to the miners are very high. Some of the causes of these workers' deaths are the rudimentary protective equipment, the lack of oxygen, the chances of accidents and the constant threat of black lung disease.
+    
+    Devil worship gives these men and children hope for protection. As long as the guy is happy, they can go home.
+    
+    </p>
+    
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

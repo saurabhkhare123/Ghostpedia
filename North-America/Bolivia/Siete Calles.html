@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,.img3 {
+
+        
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2 ,.img3{
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+    </style>
+<body id="wiki">
+    <h1>Legend of Siete Calles</h1>
+  <center><img src="img/download.jpeg" alt="" class="img1"></center>  
+    <p>There’s a district in Santa Cruz de la Sierra that’s called Siete Calles (seven streets), formed by six streets in the shape of an asterisk. It was not always so, as a seventh street did exist centuries ago, but one of the neighbors decided to close the seventh street to his benefit. The problem was that said street ran through the middle of his house, parting it into two dissimilar halves, which he disliked. As he was rich and influential, he simply closed the street without asking for permission from the authorities.</p>
+    
+<p>Other neighbors didn’t agree and complained to the authorities, who in turn sent an inspector. This man wasn’t quite a clever fellow, for as soon as he began counting the streets, the man who had closed the street was able to convince him easily that six streets were in reality seven streets, therefore no such thing as his closing of the street had ever occurred. The townspeople, well aware that the inspector was dim-witted, made fun of his efforts to convince them all that six streets were seven, so the name stayed even though the seventh street was actually no longer there.</p>
+    
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

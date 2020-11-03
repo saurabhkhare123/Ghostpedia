@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,.img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2 ,.img3{
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+    </style>
+<body id="wiki">
+    <h1>The Legend of Isireri Lagoon</h1>
+    <img src="img/n1.jpeg" alt="" class="img1">
+    <p>Isidoro was a very restless child who always accompanied his mother to launder the clothes in a small local swamp where all the local women washed clothes. One day, as his mother was laying the clothing out to dry on top of the patujú bushes, Isidoro caused one piece of clothing to fall off the washboard and into the water. He walked into the water to retrieve it.</p>
+    
+    
+<p>"Isidoro, where are you..." called his mother. "I'm here Mother, picking up some clothing out of the water..." he answered. "Well hurry because I'm almost finished hanging the clothes..." she said.
+
+    A few moments later, worried because he had not returned, his mother called out for him again and he answered "Yes, mother... here I am..." but his voice seemed to be more distant.</p>
+<img src="img/n2.jpeg" alt="" class="img2">
+    <p>Again she called out to him, this time with no answer. She continued to call out to him because it appeared a rain storm was imminent. She ran to look for him but could not find him. Suddenly, a torrential rain began to fall.
+
+    Desperate, she ran back to the town which was a mile away to find help. When she and her neighbors returned to the swamp it had become an immense and very beautiful lake and there was no trace of Isidoro.
+    
+    From that day forward the destiny of San Ignacio de Moxos changed forever. The people were able to settle down as a source of water and fish had been secured for the entire population.
+    
+    </p>  
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>
