@@ -442,3 +442,46 @@ border: 2px solid grey;
     
   }
  } 
+
+
+ @media only screen and (max-width:500px){
+     .secondhalf  {
+         margin-right:17% ;
+     }
+
+     .logo{
+         margin-left: 20px;
+     }
+     .rightnav{
+         width: 50%;
+        
+     }
+
+     
+ }
+
+ @media (max-width:360px)
+ {
+    .secondhalf{
+        margin-top: 20%;
+        margin-right: 21%;
+        
+    }
+    
+    
+    
+    
+    
+    
+    .btn{
+       
+       
+        margin: 3px;
+        border: 2px solid white;
+        border-radius: 8px;
+        cursor: pointer;
+        background:none;
+        color: white;
+        font-size: 10px;
+    }
+ }
