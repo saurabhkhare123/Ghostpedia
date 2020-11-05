@@ -92,8 +92,12 @@ html{
     position: sticky;
     top: 0;
     cursor: pointer;
+    z-index: 1;
     
-    
+}
+
+.rightnav i{
+    display: none;
 }
 
 .logo{
@@ -244,6 +248,51 @@ html{
   }
 
 /* About us ends */
+
+.gallery {
+    background-image: url(img/Digit\ \(72\).jpg);
+    
+  }
+  
+  .gallery-cell {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 40%;
+    height: 550px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    line-height: 550px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    background-size: cover;
+    
+    
+  }
+  .gallery-cell a{
+      color: white;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 550px;
+    font-size: 80px;
+    color: white;
+  }
+  
+  .carousel{
+      margin-top: 70px;
+      margin-bottom: 70px;
+      
+  }
+  .carousel h1{
+      font-size: 40px;
+      margin-bottom: 70px;
+  }
   
 /*Form Starts*/
 
@@ -299,12 +348,12 @@ border: 2px solid grey;
  position:absolute;
  cursor: pointer;
  right: 5%;
- top:15px;
+ top:20px;
 }
 .line{
     width: 33px;
     background-color: white;
-    height: 4px;
+    height: 5px;
     margin:3px 3px;
 }
 
@@ -323,49 +372,7 @@ border: 2px solid grey;
   
   
   
-  .gallery {
-    background-image: url(img/Digit\ \(72\).jpg);
-  }
   
-  .gallery-cell {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 40%;
-    height: 550px;
-    margin-right: 10px;
-    text-transform: uppercase;
-    line-height: 550px;
-    font-size: 35px;
-    text-align: center;
-    color: white;
-    font-family: 'Pacifico', cursive;
-    background-size: cover;
-    
-    
-  }
-  .gallery-cell a{
-      color: white;
-  }
-  
-  /* cell number */
-  .gallery-cell:before {
-    display: block;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 550px;
-    font-size: 80px;
-    color: white;
-  }
-  
-  .carousel{
-      margin-top: 70px;
-      margin-bottom: 70px;
-      
-  }
-  .carousel h1{
-      font-size: 40px;
-      margin-bottom: 70px;
-  }
 
 
 @media only screen and (max-width:1024px){
@@ -381,21 +388,19 @@ border: 2px solid grey;
 
 .logo img{
            width: 100%;
-           height: 40px;
+           height: 80px;
         
            
        }
        
-       .logo{
-           margin-right: 7%;
-       }
+       
        
        
  
        .rightnav{
            text-align: center;
            align-items: center;
-           
+           display: flex;
        }
  
  #search{
@@ -428,7 +433,14 @@ border: 2px solid grey;
    text-align: center;
 }
 .btn-sm{
-    top:10%;
+    display:none;
+}
+.rightnav i{
+    display:block ;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 5px;
 }
 .text-small{
    text-align: center;
@@ -456,23 +468,45 @@ border: 2px solid grey;
          width: 50%;
         
      }
-
+     .rightnav i{
+        display:block ;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+    .btn-sm{
+        display: none;
+    }
      
  }
 
  @media (max-width:360px)
- {
+ {  
     .secondhalf{
         margin-top: 20%;
         margin-right: 21%;
         
     }
+    .logo{
+        margin-right: 14px;
+    }
+
+    .rightnav{
+        margin-left: 30px;
+    }
     
-    
-    
-    
-    
-    
+    .rightnav i{
+        display:block ;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+    .btn-sm{
+        display: none;
+    }
+     
     .btn{
        
        
