@@ -64,7 +64,7 @@
                 </p>
                 <div class="buttons">
 
-                    <button class="btn">Subscribe</button>
+                    <button id="AddButton" onclick="AddButtonClick()" class="btn">Subscribe</button>
                     <button class="btn">Watch video</button>
                 </div>
             </div>
@@ -78,8 +78,8 @@
 
     <!--About us starts-->
     <a name="1"></a>
-           <h1 class="about">
-              
+    <h1 class="about">
+
         <center>About Us</center>
     </h1>
     <section class="section">
@@ -94,7 +94,7 @@
 
     </section>
 
-    
+
     <section class="section left" id="about">
         <div class="para">
             <p class="sectiontag text-big">The end of humanity is here</p>
@@ -103,7 +103,7 @@
                 eum impedit corrupti voluptatem deserunt dolor sed. Esse ipsam at explicabo et, neque eaque fugiat.</p>
         </div>
         <div class="thumbnail">
-            <img src="https://source.unsplash.com/200x200/?witches" width="200" height="200" class="imgFluid">
+            <img src="https://source.unsplash.com/200x200/?Witch" width="200" height="200" class="imgFluid">
         </div>
 
     </section>
@@ -115,14 +115,14 @@
                 eum impedit corrupti voluptatem deserunt dolor sed. Esse ipsam at explicabo et, neque eaque fugiat.</p>
         </div>
         <div class="thumbnail">
-            <img src="https://source.unsplash.com/200x200/?demons" width="200" height="200" class="imgFluid">
+            <img src="https://source.unsplash.com/200x200/?Demons" width="200" height="200" class="imgFluid">
         </div> -->
 
     </section>
-<!--About us ends-->
+    <!--About us ends-->
 
     <!--carousel started-->
- <a name="2"></a>
+    <a name="2"></a>
     <div class="carousel">
         <h1>
             <center>Continents</center>
@@ -135,32 +135,46 @@
             <div class="gallery-cell" style="background-image: url('img/Africa.jpg');"><a href="">Africa</a></div>
             <div class="gallery-cell" style="background-image: url('img/Europe.jpg');"><a href="">Europe</a></div>
             <div class="gallery-cell" style="background-image: url('img/Asia.jpg');"><a href="">Asia</a></div>
-            <div class="gallery-cell" style="background-image: url('img/Australia.jpg');"><a href="">Australia</a></div>
+            <div class="gallery-cell" style="background-image: url('img/Australia.jpg');"><a href="Australia/index.html">Australia</a></div>
         </div>
     </div>
 
     <!--Carousel Ended-->
-    
+
     <!--Contact -->
     <a name="3"></a>
-     <section class="contact" id="contact">
+    <section class="contact" id="contact">
         <h2 class="waala">Contact hell</h2>
         <div class="form">
-            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your Name">
-            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your E-mail">
-            <input class="form-input" type="text" name="death-wish" id="death-wish" placeholder="Enter your death-wish">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your Name" required>
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your E-mail" required>
+            <input class="form-input" type="text" name="death-wish" id="death-wish" placeholder="Enter your death-wish" required>
             <textarea class="form-input" name="text" id="text" cols="30" rows="10" class="txt"
-                placeholder="Express your inner demons"></textarea>
-            <button class="btn btn-sm btn-dark">Submit</button>
+                placeholder="Express your inner demons" required></textarea>
+            <button id="AddButton2"  class="btn btn-sm btn-dark">Submit</button>
         </div>
-    </section> 
+    </section>
     <!--Contact ends-->
-     <footer class="background">
+    <footer class="background">
         <p class="waali">
             There is no escape,death will always find its way to you!
-        </p> </footer>
+        </p>
+    </footer>
     <script src="/path/to/flickity.pkgd.min.js"></script>
     <script src="app.js"></script>
+
 </body>
+<script src="jquery-3.5.1.js"></script>
+<script>
+    function AddButtonClick() {
+        //change text from add to Update
+        $("#AddButton").text('Subscribed');
+
+
+    }
+    $("#AddButton2").click(function () {
+        alert("You'll burn in hell soon.");
+    });
+</script>
 
 </html>

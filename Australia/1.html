@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,
+    .img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>The Macquarie Fields Station</h1>
+    <img src="Img/11.jpeg" alt="" class="img1">
+    <p>In the south west suburbs of Sydney lies a train station with a grizzly secret. When the last train leaves
+        Macquarie Fields station and the platform is empty, a fain cry can be heard in the breeze. Believers say the
+        station is haunted. For those that find the crying scary to hear - things only get worse. Some say the crying
+        eventually stops and then, after a short pause, it turns to blood curdling screams of anguish. On some
+        occasions, people even see the ghost - a teenage girl roaming the platform with dark blood covering her face.
+        She cries and cries then screams and screams. For me though, the creepiest part is that sometimes, she stares
+        right at you.</p>
+    
+    <p>Ghost hunters say it’s quiet at first but soon becomes much louder, sometimes accompanied by the terrifying
+        spectre of a teenage girl wearing dancing clothes stained with blood.
+
+        One group, the Sydney Spirit Stalkers — who “stalk the paranormal” — say the sounds are the “moans and groans of
+        a young girl in her teens,” who comes out when the platforms are “nearly empty.”
+
+        The haunting is reminiscent of the phantom girl in a white dress, who haunts the Wakehurst Parkway on Sydney’s
+        northern beaches.</p>
+    <img src="Img/12.jpeg" alt="" class="img2">
+    <p>Another paranormal website, Urban Ghosts Media, has also investigated the Macquarie Fields platforms, including
+        them in a list of ten “creepy phantoms and urban legends”.
+
+        Their website reports “faint crying” carried on the breeze after the last train pulls out.
+
+        “As the night passes, you can sometimes hear the crying abruptly stop and change to hideous screams,” their post
+        said.
+
+        “A handful of people have reported seeing a ghostly teenage girl roaming the platform (with) a dark splatter of
+        blood covering her front.”</p>
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

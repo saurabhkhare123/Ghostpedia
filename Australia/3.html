@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,
+    .img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>Schneider’s Alley</h1>
+    <img src="Img/31.jpg" alt="" class="img1">
+    <p>In the early 1900’s, a man known as Dr. Michael Schneider acquired Clifton Manor, a mansion located on
+        approximately 40 acres of land in Adelaide, Australia. He quickly moved his wife and two daughters in and for a
+        while, everything was happy.</p>
+    <img src="Img/32.jpg" alt="" class="img2">
+    <p>The doctor had a cabin on his land, that he used to treat patients. Rumor had it, most of his patients were
+        schizophrenic or mentally ill. He treated them there to keep them away from his family.
+
+        After five happy years, his wife, Ethyl and his two daughters all died, due to an unexpected accident. The
+        doctor went mad, and his cabin became a place of torture where he would regularly work through his grief.
+
+        Dr. Schneider began performing surgeries, without any form of anesthesia. Neighbors reported hearing tortured
+        screams coming from his property. Rumors began to spread that the good doctor was killing and dismembering his
+        patients as a form of satanic ritual. Agonized cries could be hear for miles around, but no investigation was
+        conducted – that is, until the doctor had already died.Police found the doctor in his home, the limbs and bodies
+        of his dead family with him. The picture below was taken by police in the house where they found Dr Schneider,
+        and is believed to be Ethel Schneider.
+        MrsSchneider
+        Now, the whole area, in particular a tree-lined trail, is haunted by the ghost of Dr. Schneider, and his
+        unsuspecting victims. You can explore Schneider’s Alley, now known as Andrew’s Walk. But beware, there have been
+        more than 100 unconfirmed ghost sightings.</p>
+
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

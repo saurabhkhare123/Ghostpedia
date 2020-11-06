@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,
+    .img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1> The Hawkesbury River Monster</h1>
+    <img src="Img/41.jpeg" alt="" class="img1">
+    <p>There have been reports are far back as the ancient art of the Dharuk tribal Aborigines of NSW of a mysterious
+        water monster. Legend calls them “Mirreeulla” or giant water serpent. There have also been sightings of this
+        creature in the last decade.
+
+        A popular story regarding this creature came to light in 1980’s. There was a report by fisherman in a small
+        aluminium boat that a sea creature surfaced below their boat, catapulting their vessel out of the water and
+        through the air over 3 metres. Other reports included boats found adrift with their occupants no where to be
+        found and boats found smashed or overturned.</p>
+    <img src="Img/42.jpg" alt="" class="img2">
+    <p>It is depicted as having a snake-like head, long neck, large body, two sets of flippers with an eel-like tail.
+        This description is very similar to the plesiosaur, which is believed to be the same creature commonly known as
+        The Loch Ness Monster – or Nessie.
+
+        There have been reports of strange slide marks, similar to that of a crocodile along the banks of the river.
+    </p>
+<p>The monster was first heard of by settlers in the 1800s, although there is Aboriginal rock art over 3-4000 years old in the area that describes the creature. The settlers were told stories by the Aboriginals of woman and children being attacked by the moolyewonk or mirreeular, both of them Aboriginal names for the monster that lurks in the river.</p>
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>
