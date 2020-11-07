@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,
+    .img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>The Nine Unknown Men</h1>
+    <img src="img/51.jpeg" alt="" class="img1">
+    <p>The Nine Unknown Men are to India what the Illuminati is to the Western world, but even more pervasive and
+        mysterious. According to legend, this powerful secret society was founded by Emperor Asoka in 273 BC after a
+        bloody battle that took the lives of 100,000 men. The function of the Nine Unknown Men was to preserve and
+        develop the sort of secret information that would be too dangerous in the hands of the uninitiated.Each of the
+        Nine was tasked with holding a special book of knowledge, ranging from propaganda to microbiology. Some of them
+        are even said to hold the secrets of anti-gravity and time travel.</p>
+    <img src="img/52.jpeg" alt="" class="img2">
+    <p>Occasionally, some of this precious information leaks out into the world—for instance, it is said that the
+        martial art of Judo was based on “leaks” from the Book of Physiology.The number of the Unknown Men is always
+        nine, and their undisguised contacts with the outside world are few and far between. Much like the Illuminati,
+        there are many rumors about their current and past members. Strangely enough, not all of them are Indian—the
+        Unknown Men are apparently spread all over the world, with some of them allegedly holding very prominent
+        positions. Among suspected members of the Nine Unknown are the influential 10th century Pope Sylvester II and
+        Vikram Sarabhai, the scientist who created India’s budding space program.</p>
+
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

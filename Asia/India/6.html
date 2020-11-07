@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,
+    .img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>Muhnochwa</h1>
+    <img src="img/61.jpeg" alt="" class="img1">
+    <p>In Kanpur, tales of the terrifying Muhnochwa abound. This violent, sharp-edged entity is said to scratch your
+        face clean off, and then leave you to die.
+        During the early 2000s, the Muhnochwa became the most talked about phenomenon among the town folk of Kanpur. It
+        was rumored to attack its prey in the thick of night, a foul creature that caused a slow and agonising death.
+    </p>
+    <img src="img/62.jpeg" alt="" class="img2">
+    <p>In Allahabad, the Muhnochwa was blamed for several attacks in 2002, with many victims coming forward with abrasions on the face.
+        Several other parts of the country have also come into the grip of a paralysing fear of this creature, with many villages complaining of attacks.Descriptions of it have been varied and wide-ranging. Some have called it fuzzy with soulless eyes, others claim it looks like a giant insect.
+        No one truly knows what it looks like, all we know is that it has struck fear into the hearts of thousands since it first made its appearance. People stayed awake whole nights for months on end, afraid to go to sleep and let the Muhnochwa in.</p>
+<p>However, the entire phenomenon has been described by some as a fear psychosis attributed to the unknown. Many suspect that it was just some mischief mongers trying to cause panic.
+    Physicians who were called in to investigate those attacked claimed that most known cases were self-inflicted using fingernails, forks and other instruments. Most of the victims were also apparently unaware of what they had done - a well-known psychological phenomenon, according to the Indian Rationalist Association.
+    
+    </p>
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

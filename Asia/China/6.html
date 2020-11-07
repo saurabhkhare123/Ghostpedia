@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2 ,.img3{
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+    </style>
+<body id="wiki">
+    <h1>The Last Bus to Beijing’s Fragrant Hills</h1>
+   <center><img src="img/6.jpg" alt="" class="img1"></center> 
+    <p>On November 14, 1995, a dark and possibly stormy night, a young man boarded the last bus heading to Beijing’s Fragrant Hills, located in Haidian District. 
+
+        Shortly after the man boarded the route 302 bus, two men tried to wave the bus down. According to a 2013 Global Times article, the bus driver was initially reluctant to pick up the men because they weren’t waiting at a bus stop. However, the driver eventually decided to stop after the conductor reminded him that it was the last bus. 
+        
+        Once the mysterious roadside men were on board, passengers were surprised to see they were wearing some pretty badass Qing Dynasty (1644-1911) robes and that there were actually three men – the third sporting long messy hair, supported by the two roadside creepers. 
+        
+        As the story goes, the men’s faces were white as snow and they didn’t interact with any other passengers on the bus. Gradually, the bus began to empty, according to the tale, until only an old lady and the young man remained inside with the mystery trio. 
+        
+        All was quiet until the old woman abruptly accused the young man of stealing her wallet – a claim that resulted in an intense argument. The quarrel was resolved when the old lady insisted the two get off the bus and go to the nearest police station. 
+        
+        Once off the bus, the young man grew enraged with the old woman, realizing he had just exited the last bus and there was no police station in sight. Fortunately for the young man, the elderly woman picked up on something he had missed: she said the three robed men did not have legs and, by default, must have been ghosts.
+        
+        </p>
+    
+    
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

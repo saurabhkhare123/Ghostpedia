@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>Mongolian Death Worm</h1>
+    <center><img src="img/5.jpg" alt="" class="img1"></center>
+    <p>Rumored to exist in the rocky and unforgiving Gobi Desert, the Mongolian death worm is unquestionably one of
+        China’s stranger cryptids. (Unfamiliar with cryptids? Click here.)
+
+        This particular creature is allegedly red in color, somewhere between two and five feet long and as thick as a
+        man’s arm. It should be noted that two to five feet is the most commonly stated length, some sources suggest the
+        animal can grow to much greater sizes, specifically a short Animal Planet documentary that claims the death worm
+        can reach lengths of up to 10 feet.
+
+        Sometimes referred to as the ‘intestine worm’ because of its ridged intestine-like appearance, this cryptid is
+        greatly feared by locals due to its highly toxic (or possibly acid-like) venom.
+
+        According to local beliefs, the death worm has the ability to spray its venom from a reasonable distance and the
+        substance is powerful enough to kill a camel or horse. Some tales assert the worm can also use electricity on
+        hapless passersby. This isn't your standard earthworm folks!</p>
+
+    <p>According to Czech cryptozoologist Ivan Mackerle, in his 1987 book Altajn Tsaadakh Govd, “It [the Mongolian death
+        worm] travels underground. Its movement can be detected from above via the waves of sand that it
+        displaces.
+
+        While most observers conclude that the death worm is simply a beast of legend (including Markerle, who mounted
+        three separate expeditions in 1990, 1992 and 2004), others have suggested it may be an undiscovered species
+        sand-dwelling snake. This suggestion is plausible, as snakes do come in various shades of red and some species
+        do have the ability to spit venom up to 2 meters.
+
+        Regardless of the likelihood of its existence, the Mongolian death worm has found considerable attention
+        worldwide, in books, television shows and a 2010 film titled Mongolian Death Worm (we haven't seen it, but word
+        on the street is it's crap).
+
+        So, is a terrifying species of worm lurking beneath the sands of the Gobi Desert? Probably not, but who knows...
+    </p>
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>
