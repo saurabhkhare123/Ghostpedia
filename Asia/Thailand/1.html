@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,
+    .img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>Naresuan’s Elephant Battle</h1>
+    <img src="img/11.jpg" alt="" class="img1">
+    <p>Elephants might be the much-loved symbol of Thailand today, yet in the past, they were used as instruments of
+        war. In fact, a tradition of single combat on elephant back first emerged in Thai history in the 13th century
+        during the Sukhothai period.
+
+        The origin of the elephant duel is still unknown but there is the possibility that the Thais and other Southeast
+        Asian warriors adopted this practice from Sri Lanka.
+        The duel was usually invoked when two major armies faced off and when initial skirmishes failed to indicate
+        which party was likely to win. In order to avoid an immensely destructive battle, the two opposing parties could
+        negotiate a duel between two figures of equal rank, each mounted on his heavily armed war elephant (along with
+        one or more bodyguard behind the warrior and a mahout in front to guide the animal). At the agreed moment, these
+        two would rush forward and attempt to disarm, wound, kill or unseat each other. It was understood that the
+        outcome would settle the entire battle once and for all.</p>
+    <img src="img/11.jpeg" alt="" class="img2">
+    <p>It is the single combat between King Naresuan and the Crown Prince of Burma, Mingyi Swa, which has been
+        remembered as one of the most legendary battles in Thai history. The fight was at the battle of Nong Sarai in
+        1592, which was a pivotal battle of the Siam-Burmese wars of this time. The two leaders, perched atop their
+        elephants, engaged in a fierce and heavily-romanticised duel.Today, the elephant battle is remembered as one of
+        Thailand's finest moments and has become a vital part of the nation’s psyche. Naresuan’s victory along with
+        freeing Thais from Burmese subjugation, saw him earn the title Naresuan the Great, and statues of him and his
+        elephant battle can be found all over Thailand. The date of the battle (January 18th) has been adopted as a
+        national holiday and celebrated each year as Royal Thai Armed Forces Day.
+    </p>
+
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>
