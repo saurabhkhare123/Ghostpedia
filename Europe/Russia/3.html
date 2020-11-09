@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>Baba yaga</h1>
+    <center><img src="img/31.jpeg" alt="" class="img1"></center>
+    <p>Baba Yaga is the most popular and complex character in Russian folktales and traces its origins to the ancient
+        Slavic goddess who was the link between life and death, or our world and the underworld. There are many versions
+        of the origins of her name, including one that links Yaga to the verb "yagatj" meaning "to be cross, to tell
+        someone off," and others that connect the name Yaga to several languages with meanings such as "snake-like,"
+        "ancestral," and "forest-dweller." Whatever the origin of the name, it has come to be associated with a
+        crone-like character who sometimes catches and sacrifices children and is unpredictable in her behavior.
+
+        However, this association is far from the original meaning bestowed on Baba Yaga, which was of nature,
+        motherhood, and the underworld. In fact, Baba Yaga was the most beloved character in Russian folklore and
+        represented the matriarchal society where it originated. Her unpredictable nature was a reflection of the
+        people's relationship with the Earth when the weather could affect crops and harvest. Her blood-thirstiness
+        comes from the sacrificial rituals of the ancient Slavs, and the nastiness attributed to Baba Yaga is due to the
+        way the clergy liked to portray her in order to suppress pagan Slavic values that remained popular with the
+        common people despite Christianity being an official religion.
+
+        You will come across Baba Yaga in most Russian folktales. She lives in a forest—a symbol of the crossing from
+        life to death in Slavic lore—in a hut that rests on two chicken legs. Yaga likes to catch travelers and make
+        them do "the kitchen work," but she also welcomes travelers with food and drink, and if they answer her riddles
+        correctly or display humble behavior, Yaga can become their biggest helper.</p>
+
+
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

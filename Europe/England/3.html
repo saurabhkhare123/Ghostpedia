@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 1024px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>Screaming skull</h1>
+   
+ <center><img src="img/3.jpg" alt="" class="img2"></center>   
+    <p>
+        A screaming skull is a paranormal object, a human skull which per legend speaks, screams, or otherwise haunts
+        its environs. The legend is most found in England and other English-speaking regions.
+
+        The Bettiscombe screaming skull of Dorset, England, is attested at least as early as 1897 in the book The
+        Haunted Homes and Family Traditions of Great Britain. That book details an alleged visit to Bettiscombe in 1883
+        by curiosity-seekers to investigate a skull which, according to legend, was of an African slave once owned by
+        the owner of the house. The slave had supposedly died determined to be buried in his homeland, and any attempt
+        to bury his skull elsewhere would cause the skull to scream aloud.</p>
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>
