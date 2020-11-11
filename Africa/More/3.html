@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,
+    .img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>Anasi</h1>
+    <img src="img/31.jpeg" alt="" class="img1">
+    <p>Anansi the Spider is a very popular creature encountered in African mythology. This West African god frequently
+        takes the form of a spider and he is considered to be not only a trickster and folk hero but also a spirit of
+        knowledge.
+    </p>
+    <p>
+
+        The stories of Anansi are believed to have originated from the Ashanti. Later they were re-told by the Akan
+        people in Ghana, and from there the stories spread through West Africa.
+
+        The word Ananse is Akan and means "spider". Anansi is depicted in many different ways. Sometimes he looks like
+        an ordinary spider, sometimes he is a spider wearing clothes or with a human face and sometimes he looks much
+        more like a human with spider elements, such as eight legs.</p>
+    <img src="img/32.jpeg" alt="" class="img2">
+    <p>During the Atlantic slave trade, the stories crossed the ocean with the slaves through oral tradition. Especially
+        in the Caribbean, Anansi’s cunning ways are often celebrated as a symbol of slave resistance and survival.
+
+        People believe that the Anansi is able to obstruct his powerful oppressors using his cunning and deceptive.</p>
+    <p>West Africans originally considered Anansi to be the creator of the world and he was often called Kwaku or Kweku
+        Ananse. In some stories Anansi is the son of Nyame, the sky god, who becomes so annoyed with his son’s mischief
+        and trickery that he turns him into a spider.
+
+        Kweku means Wednesday, the day the spider-god’s soul first appeared.
+
+        Anansi often acted as a communicator between humans in their dealings with the sky god Nyame. It is believed
+        that Anansi persuaded Nyame to give both rain and the night to people.
+
+        Anansi can appear both as a spider or a person. He is a great trickster with few scruples, who uses his wit and
+        cunning to get an advantage over animals that are bigger and stronger than him.</p>
+    <p>Anansi shares similarities with the trickster figure of Br'er Rabbit, who originated from the folklore of the
+        Bantu-speaking peoples of south and central Africa. Enslaved Africans brought the Br'er Rabbit tales to the New
+        World, which, like the Anansi stories, depict a physically small and vulnerable creature using his cunning
+        intelligence to prevail over larger animals.
+
+        Just like other tricksters, Anansi often uses his victims’ habits and ways of life to trick them into situations
+        in which he is able to achieve what he wants.</p>
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>
