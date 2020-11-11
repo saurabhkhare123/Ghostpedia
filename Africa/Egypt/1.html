@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,
+    .img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>El Naddaha</h1>
+    <img src="img/11.jpeg" alt="" class="img1">
+    <p>The origin and place of the legend is unknown. The story became popular around the 1950s where Egypt was less
+        urban than it is now, and people would spend more time closer to the Nile. Children would play by its shores
+        after school had released them, and young men would chat there at night. It has become less popular at present
+        though it's still familiar to the youth.</p>
+    <img src="img/12.jpeg" alt="" class="img2">
+    <p>El Naddaha takes the form of stunningly beautiful woman who appears, as if by chance, to men walking by the Nile
+        at night. The men are usually a pair. The creature calls one by his first name, rendering him speechless,
+        hypnotized, and obedient to her voice which he blindly follows, while the other man is unaffected, and attempts
+        to pull the other back. The creature calls in a soft, sleepy, hypnotizing voice until the second unaffected man
+        succeeds at last in reviving the called man from his trance. The two run away as fast as they can, hearing her
+        voice still echoing as they run.
+
+        Usually the men do not get close enough to the Nile to get a glimpse of what the creature looks like before they
+        run away. In rare instances, they get a glimpse of her. She is described as being a very beautiful white female;
+        tall, slender, with long flowing hair down her back. She stands steadily very near to the bank of the river, her
+        hands placed at her sides, and wearing a loose, long semi-transparent dress. In many instances she is described
+        as having a semi-transparent body and possibly a jinn. Her voice is calm and soft, yet loud.</p>
+<p>In rural Egypt, the creature may call for men in their homes by the shores of the Nile, who then eagerly attempt to leave home for her. In other tales, the affected man will not immediately try to follow; rather enter a state of disturbed distraction for a few nights before at least departing late at night. People in rural Egypt believe that a man who is called for by El Naddaha is doomed, curing him from the curse is impossible. Not a single instance has been recorded where a man is seen devoured by her. But many old local citizens believe she consumes or fiercely pulls her victims into the Nile and drowns them.
+
+</p>
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>

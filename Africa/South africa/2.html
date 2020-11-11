@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Rakkas);
+
+
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Rakkas;
+        background-color: green;
+        color: white;
+        display: block;
+
+
+    }
+
+    img {
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img1,
+    .img3 {
+
+        float: right;
+        height: 300px;
+    }
+
+    .img2 {
+        float: left;
+        height: 300px
+    }
+
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+
+
+
+    }
+
+    @media(max-width: 500px) {
+
+        .img1,
+        .img2,
+        .img3 {
+
+            float: none;
+            width: 100%;
+            margin: 0%;
+
+
+        }
+
+
+        body {
+            display: inline-block;
+            width: 100%;
+            justify-content: center;
+            justify-self: center;
+
+
+        }
+
+
+
+    }
+</style>
+
+<body id="wiki">
+    <h1>Impundulu</h1>
+    <img src="img/21.jpeg" alt="" class="img1">
+    <p>The Lightning bird or impundulu is a vampiric bird from southern African myth.</p>
+    <p>Frequently described as the hammerkop, the impundulu is a human-sized bird with black and white plumage. It has
+        the ability to manifest itself as lightning. In some accounts it takes the form of a rooster, but in others it
+        has peacock feathers, or even a red tail, beak, and legs. It has the ability to turn into a beautiful man to
+        seduce others.</p>
+    <p>It is most infamous for its thirst for blood and pain, which it is known to take from humans, birds, and cattle.
+        If its attacks did not kill, it would leave its victims with infertility and tuberculosis. It has the ability to
+        bring rain, bad luck, and cause people to have sex.</p>
+    <img src="img/22.jpeg" alt="" class="img2">
+    <p>It may abduct children or steal milk from households. The flap of its wings is the source of thunder, and it can
+        shoot lightning from its talons. Occasionally it will strike the earth as lightning, and it will lay its egg
+        where it lands. It can be caught either by catching it at the moment it strikes or finding it in an underground
+        cavern where it hit the ground. The easiest way to find it or its eggs is to search for fairy rings, which
+        indicate the place it struck.
+
+        Impundulu are frequently the familiars of witches, and are passed down from mother to daughter as they are
+        immortal. However, should a witch fail to pass hers down, the bird will become an ishologu, a masterless force
+        of chaos and destruction. While it is a familiar, it can be sent to wreak havoc on the witch's enemies. However,
+        if not kept fed, it would ensure the witch's death. In some accounts, the impundulu and the witch become lovers.
+        It is often seen riding on the back of a hyena, which witches are known to shapeshift into.
+
+        The impundulu's body and eggs have many magical properties. While often eggs are destroyed, they can also be
+        used (along with glowing fish and other ingredients) to create a potion that causes lightning to strike an
+        enemy. Its fat could be used in medicinal remedies. Furthermore, its flesh could be used to discover thieves.
+        However, it could be difficult to get these ingredients, as its only known weakness is fire; it is impervious to
+        all other attacks.</p>
+
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script>$('#wiki').hide(-1000, function () {
+
+    })
+    $('#wiki').show(2000, function () {
+
+    })</script>
+
+</html>
