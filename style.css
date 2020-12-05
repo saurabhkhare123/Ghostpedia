@@ -28,7 +28,7 @@
     pointer-events: none;
 
 }
-.ghost1,.ghost2{
+/*.ghost1,.ghost2{
     height:100px ;
     position: absolute;
     right: 0%;
@@ -45,7 +45,7 @@
     transform: translate(100%,-50%);
     animation: ghosts  10s ease infinite 2s ;
 
-}
+}*/
 .ghost{
     width: 200px;
     animation: ghost 1s ease infinite alternate;
