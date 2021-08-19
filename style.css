@@ -28,24 +28,7 @@
     pointer-events: none;
 
 }
-/*.ghost1,.ghost2{
-    height:100px ;
-    position: absolute;
-    right: 0%;
-    z-index: -1;
 
-}
-.ghost1{
-    top:25%;
-    transform: translate(100%,-25%);
-    animation: ghosts 10s ease infinite ;
-}
-.ghost2{
-    top: 70%;
-    transform: translate(100%,-50%);
-    animation: ghosts  10s ease infinite 2s ;
-
-}*/
 .ghost{
     width: 200px;
     animation: ghost 1s ease infinite alternate;
@@ -358,21 +341,6 @@ border: 2px solid grey;
 }
 
 /*Footer*/
-
-/*.container{
-    width: 100%;
-    max-width: 122.5rem;
-    margin: 0 auto;
-    padding: 0 2.4rem;
-}*/
-
-
-
-
-  
-  
-  
-  
 
 
 @media only screen and (max-width:1024px){
