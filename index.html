@@ -23,8 +23,7 @@
     <div class="preload" style="background-image: url(img/bg-2.jpg);">
         <img src="img/245787032022212.png" alt="flyingGhost" class="ghost">
         <h3>Even the dead tell stories...</h3>
-        <!--<img src="img/ghost1.png" alt="ghost1" class="ghost1">
-        <img src="img/klipartz.com.png" alt="ghost1" class="ghost2">-->
+       
 
 
 
@@ -195,12 +194,16 @@
 <script>
     function AddButtonClick() {
         //change text from add to Update
+        let x = document.getElementById("AddButton").textContent;
+        if( x == "Subscribe"){
         $("#AddButton").text('Subscribed');
-
+        }else{
+             $("#AddButton").text('Subscribe');
+        }
 
     }
     $("#AddButton2").click(function () {
-        alert("Death will knock at your soon!");
+        alert("Death will knock at door your soon!");
     });
 </script>
 
