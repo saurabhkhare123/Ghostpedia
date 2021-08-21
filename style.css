@@ -233,7 +233,7 @@ html{
 /* About us ends */
 
 .gallery {
-    background-image: url(/img/Digit\ \(72\).jpg);
+    background-image: url(img/Digit\ \(72\).jpg);
     
   }
   
@@ -343,6 +343,16 @@ border: 2px solid grey;
 /*Footer*/
 
 
+
+
+
+
+  
+  
+  
+  
+
+
 @media only screen and (max-width:1024px){
     
 .nav-list{
@@ -359,7 +369,7 @@ border: 2px solid grey;
            height: 80px;
         
            
-    }
+       }
        
        
        

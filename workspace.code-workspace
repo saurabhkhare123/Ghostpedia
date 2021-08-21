@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../practice-websites"
+		},
+		{
+			"name": "Ghostpedia_using_React",
+			"path": "../Ghostpedia_using_React"
+		},
+		{
+			"name": "Ghostpedia-1",
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "Ghostpedia-1"
+	}
+}
